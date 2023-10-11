@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food App</title>
+        <style>
+            header ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                overflow: hidden;
+                background-color: #04364A; 
+            }
+
+            header li{
+                float: left;
+            }
+
+            header li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            header li a:hover {
+                background-color: #111;
+            }
+
+            .text-content a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .food-images{
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            .food-images p{
+                margin-left: 240px;
+                margin-bottom: 40px;
+            }
+
+            .fooditem{
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+        
+    </head>
+    <body style="padding:0px; margin:0px; background-color:#176B87;">
+       <header>
+        <ul>
+            <li><a href="#">Index</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+       </header> 
+
+       <div class="food-list">
+        <div class="text-content">
+            <h2>Top 5 favourite foods</h2>
+            <ul>
+                <li><a href="#burger">Burger</a></li>
+                <li><a href="#sandwich">Sandwich</a></li>
+                <li><a href="#momos">Momos</a></li>
+                <li><a href="#noodles">Noodles</a></li>
+                <li><a href="#pizza">Pizza</a></li>
+            </ul>
+        </div>
+
+        <div class="food-images">
+            <div id="burger"><img class="fooditem" src="Foods/Burger.jpg" alt="Burger"></div>
+            <p class="labels" >Burger</p>
+            <div id="sandwich"><img class="fooditem" src="Foods/Sandwich.jpeg" alt="Sandwich"></div>
+            <p class="labels" >Sandwich</p>
+            <div id="momos"><img class="fooditem" src="Foods/Momos.jpg" alt="Momos"></div>
+            <p class="labels" >Momos</p>
+            <div id="noodles"><img class="fooditem" src="Foods/Noodles.jpg" alt="Noodles"></div>
+            <p class="labels" >Noodles</p>
+            <div id="pizza"><img class="fooditem" src="Foods/Pizza.jpg" alt="Pizza"></div>
+            <p class="labels" >Pizza</p>
+        </div>
+       </div>
+    </body>
+</html>
